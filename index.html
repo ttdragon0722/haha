@@ -1,14 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>資工二甲 | 賴家煜</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../static/css/home.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    <div>班級:資工二甲</div>
-    <div>學號:1111032026</div>
-    <div>姓名:賴家煜</div>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">HOME</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a href="#homework" class="nav-link">作業</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">作品</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+      </ul>
+    </header>
+
+    <div id="main" class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="../static/img/作業一圖片.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="title">賴家煜<br>Jia-Yu Lai</h1>
+          <h2 class="title-2">國立台中科技大學資工二甲</h2>
+          <h3 class="title-3">National Taichung University of Science and Technolog Computer Science and Information
+            Engineering 2nd class A</h3>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start social-menu">
+            <ul>
+              <li>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100013759479543" title="雷克斯">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/ttdragon_0722/" title="ttdragon0722">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/ttdragon0722?tab=repositories">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.youtube.com/channel/UCtBPkw7bcZQ_0WuteT4EL4Q"
+                  title="youtube 雷克斯與TT暴龍">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container content-lg">
+        <div class="row">
+          <!--
+            <div class="col-sm-5 sm-margin-b-60">
+                <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+            </div>
+  -->
+          <div class="col-sm-12">
+            <div class="margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h1>About Me</h1>
+                  <h3 class="about-content ">
+                    我的名字叫賴家煜，大家都叫我雷克斯，16歲。住在台中市北區的別墅區一帶，未婚。我在台中科技大學讀書。每天都要吃飯到晚上8點才能回家。我不抽煙，酒僅止於淺嚐。晚上11點睡，每天要睡足8個小時。睡前，我一定喝一杯溫牛奶，然後做20分鐘的柔軟操，上了床，馬上熟睡。一覺到天亮，決不把疲勞和壓力留到第二天。醫生都說我很正常。
+                  </h3>
+                  <div style="height: 10vh;"></div>
+                  <div>
+                    <ul>
+                      <li>
+                        <h3  class="about-content">
+                          於光復國小附設幼稚園杜鵑班畢業
+                        </h3>
+                      </li>
+                      <li>
+                        <h3  class="about-content">
+                          於文昌國小六年四班畢業
+                        </h3>
+                      </li>
+                      <li>
+                        <h3  class="about-content">
+                          於崇德國中三年十六班畢業
+                        </h3>
+                      </li>
+                      <li>
+                        <h3 class="about-content">
+                          現就讀國立台中科技大學五專部資工二甲
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!--<a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>-->
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <div id="homework">
+      <div class="container content-lg">
+        <div class="row">
+          <!--
+            <div class="col-sm-5 sm-margin-b-60">
+                <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+            </div>-->
+          <div class="col-sm-12">
+            <div class="margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h1>作業區 Homework</h1>
+                  <h3 class="homework-content">
+                      <div>
+                        <ul>
+                          <li>
+                            <a href="作業1.html">作業1</a>
+                            
+                          </li>
+                        </ul>
+                      </div>
+
+                  </h3>
+                </div>
+                <!--<a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>-->
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <div id="homework">
+      <div class="container content-lg">
+        <div class="row">
+          <!--
+            <div class="col-sm-5 sm-margin-b-60">
+                <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+            </div>-->
+          <div class="col-sm-12">
+            <div class="margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h1>作品 資歷</h1>
+                  <h3 class="homework-content">0</h3>
+                </div>
+                <!--<a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>-->
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <div id="homework">
+      <div class="container content-lg">
+        <div class="row">
+          <!--
+            <div class="col-sm-5 sm-margin-b-60">
+                <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+            </div>-->
+          <div class="col-sm-12">
+            <div class="margin-b-50">
+              <div class="margin-b-50">
+                <div class="margin-b-30">
+                  <h1>CONTACT ME</h1>
+                  <h3 class="homework-content">0</h3>
+                </div>
+                <!--<a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a>-->
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
 </body>
+
 </html>
