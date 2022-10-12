@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    reload(1,()=>{
-        $("body").css("left", (window.innerWidth-800)/2);
-        console.log("sss")
-    }
-    )
+    // reload(1,()=>{
+    //     $("body").css("left", (window.innerWidth-800)/2);
+    //     console.log("sss")
+    // }
+    // )
 });
 
 function reload(time,func) {

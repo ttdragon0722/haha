@@ -1,5 +1,12 @@
 body {
-    position: relative;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    /* width: 800px;
+    height: 600px; */
+    
+}
+.body {
     width: 800px;
     height: 600px;
 }
