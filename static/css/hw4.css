@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+header,footer,nav,.content {
+    margin: 5px;
+}
+
+header,footer {
+    height: 100px;
+}
+
+header {
+    background-color: orange;
+}
+
+nav {
+    background-color: deeppink;
+    height: 50px;
+}
+
+.content {
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+
+.aside {
+    background-color: pink;
+    width: 200px;
+    height: 350px;
+    margin-right: 5px;
+}
+
+.article {
+    background-color: deepskyblue;
+    width: 600px;
+    height: 350px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section {
+    background-color: yellow;
+    margin: 5px;
+    width: auto;
+    height: 100px;
+}
+
+
+footer {
+    background-color: darkseagreen;
+}
