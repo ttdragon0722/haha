@@ -88,7 +88,7 @@ header {
     display: flex;
 }
 
-@media(max-width:540px){
+@media(max-width:751px){
     .content {
         flex-direction: column-reverse;
     }
@@ -118,7 +118,7 @@ header {
     height: fit-content;
 }
 
-@media(max-width:540px){
+@media(max-width:751px){
     .tags,.main {
         width: 100%;
     }
