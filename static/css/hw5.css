@@ -3,6 +3,9 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration:none;
+}
 /* header */
 
 header {
