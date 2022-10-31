@@ -1,0 +1,290 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/**=== header ================ */
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+@media (max-width:750px) {
+    header {
+        padding-bottom: 10px;
+    }
+}
+
+.header-icon-group {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.title-icon {
+    margin: 0 20px;
+}
+
+@media (max-width:1400px) {
+    .title-icon {
+        margin: 0 10px;
+    }
+
+    .header-icon-group {
+        margin-right: 3%;
+    }
+}
+
+.header-accordion {
+    display: none;
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    display: none;
+    width: 100%;
+    margin-left: 20px;
+    padding: 0 18px;
+    background-color: white;
+}
+
+
+@media (max-width:750px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .header-icon-group {
+        display: none;
+    }
+
+    .header-accordion {
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+
+    .panel {
+        display: block;
+    }
+}
+
+/* ============================= */
+
+/** home   */
+
+.element {
+    margin-top: 10vh;
+    padding: 0px 15%;
+}
+
+@media (max-width:1450px) {
+    .element {
+        padding: 10vh 10%;
+    }
+}
+@media (max-width:1370px) {
+    .element {
+        padding: 10vh 5%;
+    }
+}
+@media (max-width:1000px) {
+    .element {
+        padding: 10vh 1%;
+    }
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.home-left {
+    width: 50%;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.home-right {
+    width: 50%;
+    height: fit-content;
+}
+
+.big-shot {
+    margin-top: 20px;
+    width: 600px;
+}
+
+.home-title {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: -50px;
+}
+
+.home-title2 {
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+@media (max-width:1450px) {
+    .home {
+        margin-top: 10vh;
+    }
+
+    .home-left {
+        margin-right: 30px;
+    }
+
+    .home-right {
+        margin-right: 30px;
+    }
+
+
+    .big-shot {
+        width: 400px;
+    }
+
+    .home-title {
+        font-size: 75px;
+    }
+
+    .home-title2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1100px) {
+    .home {
+        padding-top: 5%;
+        padding-left: 15%;
+    }
+}
+
+@media (max-width:970px) {
+    .home {
+        padding-left: 13%;
+
+    }
+}
+@media (max-width:930px) {
+    .big-shot {
+        width: 300px;
+    }
+}
+
+@media (max-width:850px) {
+    .home-title {
+        font-size: 60px;
+        margin-top: -30px;
+    }
+    .home-title2 {
+        font-size: 20px;
+        
+    }
+}
+
+@media (max-width:750px) {
+    .home {
+        flex-direction: column;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .home-left ,.home-right{
+        margin: 0;
+        width: fit-content;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-title,.home-title2,.home-title3 {
+        margin: 0 auto;
+    }
+
+    .home-title {
+        margin-bottom: -30px;
+    }
+
+    .home-title2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .home-title3 {
+        width: 80%;
+        
+    }
+
+    .big-shot {
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+/* ================================== */
+
+/* content */
+.title {
+    padding-left: 5%;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.content-text {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 0 10%;
+}
+
+@media (max-width:750px) {
+    .content {
+        padding-left: 10%;
+        padding-top: 0;
+    }
+}
+
+
+/* about */
+
+.work,.conact {
+    height: 2000px;
+}
+
+
+
+
+
+
+
+
