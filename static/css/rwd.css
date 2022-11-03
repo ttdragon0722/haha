@@ -225,7 +225,7 @@
 }
 
 
-@media (max-width:320px) {
+@media (max-width:321px) {
     .home-title2 {
         font-size: 20px;
     }
@@ -233,4 +233,31 @@
     .home-title3 {
         font-size: 10px;
     }
+    .title ,.card-title,.research-card-title,.parallax-title,.contact-title{
+        font-size: 25px;
+    }
+
+    .contact-content {
+        padding-top: 1rem;
+    }
+
+
+    .content-text,.card-content,.research-card-text,.contact-content {
+        font-size: 18px;
+    }
+
+    .research-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .research-card-img >img {
+        width: 150px;
+        height: auto;
+    }
+
+    .footer {
+        font-size: 5px;
+    }
+
 }
