@@ -1,0 +1,236 @@
+@media (max-width:2000px) {
+    .element,.inside-content {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width:1600px) {
+    .element,.inside-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+@media (max-width:1400px) {
+    .element,.inside-content {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .home-right {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .big-shot {
+        width: 500px;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+    
+    .contact-block  {
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 2rem;
+    }
+    
+    .school-list-box {
+        padding-left: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .school-list {
+        flex-wrap: wrap;
+    }
+    .school-card{
+        width: 45%;
+    }
+}
+
+@media (max-width:1200px) {
+    .element,.inside-content {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #parallax {
+        height: 40vh;
+    }
+}
+
+@media (max-width:1000px) {
+    .home {
+        padding-top: 3rem;
+    }
+
+    .home-title {
+        font-size: 80px;
+    }
+
+    .big-shot {
+        width: 400px;
+    }
+    .school-card{
+        width: 45%;
+    }
+
+    .research-card-img > img {
+        height: 200px;
+    }
+
+    .research-card {
+        height: fit-content;
+    }
+
+}
+@media (max-width:850px) {
+    .home-title {
+        font-size: 60px;
+        margin-top: -30px;
+    }
+    
+    .home-title2 {
+        font-size: 20px;
+        
+    }
+}
+
+@media (min-width:751px) {
+    .panel {
+        display: none;
+    }
+}
+
+@media (max-width:769px) {
+    .element,.inside-content,.school-list-box{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content-text {
+        padding-left: 3%;
+        padding-right: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    
+    .header-icon-group {
+        display: none;
+    }
+    
+    .header-accordion {
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+    
+    .panel {
+        display: block;
+    }
+    .home {
+        flex-direction: column;
+    
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .home-left,
+    .home-right {
+        margin: 0;
+        width: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home-title,
+    .home-title2,
+    .home-title3 {
+        margin: 0 auto;
+    }
+    
+    .home-title {
+        margin-bottom: -30px;
+    }
+    
+    .home-title2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    
+    .home-title3 {
+        width: 80%;
+    
+    }
+    
+    .big-shot {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .title {
+        padding-left: 10%;
+    }
+
+    .content {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .school-list {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .school-card {
+        width: 100%;
+    }
+
+    .parallax-title {
+        font-size: 80px ;
+    }
+    #parallax {
+        height: 30vh;
+    }
+
+    .footer {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .research-card {
+        width:100%;
+    }
+    
+    .research-card-img > img {
+        margin-left: 0;
+    }
+    .research-content {
+        margin-left: 1rem;
+    }
+}
+
+
+@media (max-width:320px) {
+    .home-title2 {
+        font-size: 20px;
+    }
+
+    .home-title3 {
+        font-size: 10px;
+    }
+}

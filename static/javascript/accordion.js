@@ -14,8 +14,10 @@ $(document).ready(function () {
             }
         });
     }
+
 });
 
 function PanelClick() {
     $(".panel").css("display","none")
 }
+
