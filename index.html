@@ -10,7 +10,7 @@
   <meta property="og:image" content="static/img/大頭貼.jpg" />
   <meta property="og:description" content="早安~~" />
 
-  
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <link rel="stylesheet" href="static/font/font.css">
@@ -26,6 +26,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
     integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
     crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
 
 
   <link rel="stylesheet" href="static/css/new.css">
@@ -44,7 +47,7 @@
 
 <body id="home">
   <!-- header -->
-  <header class="d-flex justify-content-end">
+  <header class="header d-flex justify-content-end">
     <div class="header-icon-group">
       <div class="title-icon"><a href="#home">HOME</a></div>
       <div class="title-icon"><a href="#about">ABOUT</a></div>
@@ -69,7 +72,7 @@
   </header>
   <div class="home element inside-content" style="background-color: #FAFAFA;">
     <div class="home-left">
-      <div class="home-title">賴家煜</div>
+      <div class="home-title" style="font-weight:1000;">賴家煜</div>
       <div class="home-title">Jia-Yu Lia</div>
       <div class="home-title2">國立台中科技大學資工二甲</div>
       <div class="home-title3">National Taichung University of Science and Technolog Computer Science and Information
@@ -177,7 +180,8 @@
           </div>
         </div>
       </div>
-      <button class="viewmore fade-in" onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
+      <button class="viewmore fade-in"
+        onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
 
     </div>
   </div>
@@ -217,10 +221,12 @@
   </div>
 
   <nav id="footer"></nav>
-  <div class="footer content inside-content element " style="background-color: #FAFAFA;display: flex;align-items: center;justify-content: flex-end;">
+  <div class="footer content inside-content element "
+    style="background-color: #FAFAFA;display: flex;align-items: center;justify-content: flex-end;">
     <div>
       Copyright © 2022 雷克斯 TTDragon . All rights reserved.
     </div>
   </div>
 </body>
+
 </html>
