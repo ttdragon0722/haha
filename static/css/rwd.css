@@ -261,3 +261,9 @@
     }
 
 }
+@media (max-width:480px) {
+    .project-card {
+        width: 95%;
+    }
+
+}

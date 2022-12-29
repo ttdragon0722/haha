@@ -438,7 +438,7 @@ header {
     font-size: 25px;
 }
 
-.work {
+.project {
     height: fit-content;
 }
 
@@ -462,6 +462,28 @@ header {
 
 .animated{
     animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.project-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    font-family: "slim john";
+    width: 49%;
+    height: fit-content;
+    margin: 2px;
+    background-color: #FAFAFA;
+    padding-top:5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+}
+
+.project-title {
+    font-weight: 1000;
 }
 
 .research-card {

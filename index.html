@@ -43,6 +43,8 @@
   <link rel="stylesheet" href="static/css/parallax.css">
 
   <link rel="stylesheet" href="static/css/rwd.css">
+
+  <script src="static/javascript/github_res.js"></script>
 </head>
 
 <body id="home">
@@ -52,7 +54,7 @@
       <div class="title-icon"><a href="#home">HOME</a></div>
       <div class="title-icon"><a href="#about">ABOUT</a></div>
       <div class="title-icon"><a href="#homework">HOMEWORK</a></div>
-      <div class="title-icon"><a href="#work">WORK</a></div>
+      <div class="title-icon"><a href="#project">PROJECT</a></div>
       <div class="title-icon"><a href="#contact">CONTACT</a></div>
     </div>
     <div class="header-accordion">
@@ -66,7 +68,7 @@
       <div class="panel-icon"><a href="" onclick="PanelClick()">HOME</a></div>
       <div class="panel-icon"><a href="#about" onclick="PanelClick()">ABOUT</a></div>
       <div class="panel-icon"><a href="#homework" onclick="PanelClick()">HOMEWORK</a></div>
-      <div class="panel-icon"><a href="#work" onclick="PanelClick()">WORK</a></div>
+      <div class="panel-icon"><a href="#project" onclick="PanelClick()">PROJECT</a></div>
       <div class="panel-icon"><a href="#contact" onclick="PanelClick()">CONTACT</a></div>
     </div>
   </header>
@@ -146,10 +148,16 @@
     </div>
   </div>
 
-  <nav id="work"></nav>
-  <div class="work element content inside-content">
-    <div class="title">WORK</div>
+  <nav id="project" ></nav>
+  <div class="project element content inside-content" style="min-height: 100vh;height: fit-content;">
+    <div class="title">PROJECT</div>
     <div class="content-text">
+      <div class="project-list">
+      </div>
+      <button class="viewmore fade-in"
+        onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
+    </div>
+
       <div class="research-list">
         <div class="research-card ">
           <div class="research-card-img"><img src="static/img/pythonlogo.png" alt=""></div>
@@ -180,13 +188,9 @@
           </div>
         </div>
       </div>
-      <button class="viewmore fade-in"
-        onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
-
-    </div>
   </div>
 
-  <nav id="contact"></nav>
+  <nav id="contact" ></nav>
   <div id="parallax">
     <div class="parallax-title" style="font-family: big john;">contact ME</div>
   </div>
