@@ -8,7 +8,7 @@ $(document).ready(function () {
         for (var i in data) {
             repository.push(data[i])
             project_list.append(
-                '<div class="project-card"><div class="project-title" style="padding-bottom:0;"><a href="" target="_blank"></a><h5 class="project-lang" style="font-size:16px;"></h5><hr style="width:80%:padding-top:2px;"></hr></div><div class="project-content"></div></div>')
+                '<div class="project-card"><div class="project-title" style="padding-bottom:0;"><a href="" target="_blank"></a><h5 class="project-lang" style="font-size:16px;"></h5><hr style="width:80%:margin-top:0px;"></hr></div><div class="project-content"></div></div>')
         }
         console.log(repository)
         $('.project-card').each(function (i) {

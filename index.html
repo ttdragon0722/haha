@@ -48,6 +48,25 @@
 </head>
 
 <body id="home">
+  <div class="sakana-box" style="position: fixed;right: 6%;bottom: -5%;"></div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sakana"></script>
+  <script>
+    Sakana.init({
+      el: '.sakana-box',     // 启动元素 node 或 选择器
+      scale: .5,                // 缩放倍数
+      canSwitchCharacter: true,      // 允许换角色
+    });
+  </script>
+  <div class="sakana-box1" style="position: fixed;right: -5%;bottom: -5%;"></div>
+  <script>
+    Sakana.init({
+      el: '.sakana-box1',     // 启动元素 node 或 选择器
+      character:  'chisato',
+      scale: .5,                // 缩放倍数
+      canSwitchCharacter: true,      // 允许换角色
+    });
+  </script>
   <!-- header -->
   <header class="header d-flex justify-content-end">
     <div class="header-icon-group">
@@ -148,7 +167,7 @@
     </div>
   </div>
 
-  <nav id="project" ></nav>
+  <nav id="project"></nav>
   <div class="project element content inside-content" style="min-height: 100vh;height: fit-content;">
     <div class="title">PROJECT</div>
     <div class="content-text">
@@ -158,39 +177,39 @@
         onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
     </div>
 
-      <div class="research-list">
-        <div class="research-card ">
-          <div class="research-card-img"><img src="static/img/pythonlogo.png" alt=""></div>
-          <div class="research-content">
-            <div class="research-card-title">PYTHON</div>
-            <div class="research-card-text">學了一年的python 開發過dc機器人 爬蟲 和一些小程式</div>
-          </div>
-        </div>
-        <div class="research-card">
-          <div class="research-card-img"><img src="static/img/htmlcssjs.png" alt=""></div>
-          <div class="research-content">
-            <div class="research-card-title">HTML,CSS,JAVASCRIPT</div>
-            <div class="research-card-text">對於網站的東西略懂略懂</div>
-          </div>
-        </div>
-        <div class="research-card">
-          <div class="research-card-img"><img src="static/img/pygame.png" alt=""></div>
-          <div class="research-content">
-            <div class="research-card-title">PYGAME</div>
-            <div class="research-card-text">致力於開發各種pygame小遊戲</div>
-          </div>
-        </div>
-        <div class="research-card">
-          <div class="research-card-img"><img src="static/img/雷克斯.png" alt=""></div>
-          <div class="research-content">
-            <div class="research-card-title">YOUTUBE<span style="font-weight: bold;">頻道</span></div>
-            <div class="research-card-text">擁有初階的剪接技巧,曾經經營過1800多訂閱的頻道,因為某些原因頻道被刪除就沒繼續下去了....</div>
-          </div>
+    <div class="research-list">
+      <div class="research-card ">
+        <div class="research-card-img"><img src="static/img/pythonlogo.png" alt=""></div>
+        <div class="research-content">
+          <div class="research-card-title">PYTHON</div>
+          <div class="research-card-text">學了一年的python 開發過dc機器人 爬蟲 和一些小程式</div>
         </div>
       </div>
+      <div class="research-card">
+        <div class="research-card-img"><img src="static/img/htmlcssjs.png" alt=""></div>
+        <div class="research-content">
+          <div class="research-card-title">HTML,CSS,JAVASCRIPT</div>
+          <div class="research-card-text">對於網站的東西略懂略懂</div>
+        </div>
+      </div>
+      <div class="research-card">
+        <div class="research-card-img"><img src="static/img/pygame.png" alt=""></div>
+        <div class="research-content">
+          <div class="research-card-title">PYGAME</div>
+          <div class="research-card-text">致力於開發各種pygame小遊戲</div>
+        </div>
+      </div>
+      <div class="research-card">
+        <div class="research-card-img"><img src="static/img/雷克斯.png" alt=""></div>
+        <div class="research-content">
+          <div class="research-card-title">YOUTUBE<span style="font-weight: bold;">頻道</span></div>
+          <div class="research-card-text">擁有初階的剪接技巧,曾經經營過1800多訂閱的頻道,因為某些原因頻道被刪除就沒繼續下去了....</div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <nav id="contact" ></nav>
+  <nav id="contact"></nav>
   <div id="parallax">
     <div class="parallax-title" style="font-family: big john;">contact ME</div>
   </div>
