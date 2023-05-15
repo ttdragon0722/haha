@@ -459,8 +459,12 @@ section > .content {
         height: 110vh;
     }
 }
-@media (max-width:425px) {
+@media (max-width:450px) {
     #title-page > section {
         height: 90vh;
+    }
+
+    #about>.content {
+        padding-top: 15%;
     }
 }
