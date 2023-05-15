@@ -2,254 +2,135 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>資工二甲 | 賴家煜</title>
-  <meta property="og:title" content="資工二甲 | 賴家煜" />
-  <meta property="og:image" content="static/img/大頭貼.jpg" />
-  <meta property="og:description" content="早安~~" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷克斯 | 資工二甲</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta property="og:description" content="早安~~">
+    <link rel="icon" href="src/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/icon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="style/init.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="style/style.css">
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
 
-  <link rel="stylesheet" href="static/font/font.css">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
-    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-
-
-  <link rel="stylesheet" href="static/css/new.css">
-  <script src="static/javascript/accordion.js"></script>
-  <script src="static/javascript/slide_in.js"></script>
-
-  <link rel="icon" href="static/img/icon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="static/img/icon.ico" type="image/x-icon" />
-
-  <script src="static/javascript/home.js"></script>
-
-  <link rel="stylesheet" href="static/css/parallax.css">
-
-  <link rel="stylesheet" href="static/css/rwd.css">
-
-  <script src="static/javascript/github_res.js"></script>
 </head>
 
-<body id="home">
-  <div class="sakana-box" style="position: fixed;right: 6%;bottom: -5%;"></div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/sakana"></script>
-  <script>
-    Sakana.init({
-      el: '.sakana-box',     // 启动元素 node 或 选择器
-      scale: .5,                // 缩放倍数
-      canSwitchCharacter: true,      // 允许换角色
-    });
-  </script>
-  <div class="sakana-box1" style="position: fixed;right: -5%;bottom: -5%;"></div>
-  <script>
-    Sakana.init({
-      el: '.sakana-box1',     // 启动元素 node 或 选择器
-      character:  'chisato',
-      scale: .5,                // 缩放倍数
-      canSwitchCharacter: true,      // 允许换角色
-    });
-  </script>
-  <!-- header -->
-  <header class="header d-flex justify-content-end">
-    <div class="header-icon-group">
-      <div class="title-icon"><a href="#home">HOME</a></div>
-      <div class="title-icon"><a href="#about">ABOUT</a></div>
-      <div class="title-icon"><a href="#homework">HOMEWORK</a></div>
-      <div class="title-icon"><a href="#project">PROJECT</a></div>
-      <div class="title-icon"><a href="#contact">CONTACT</a></div>
-    </div>
-    <div class="header-accordion">
-      <button class="accordion"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-          class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-        </svg></button>
-    </div>
-    <div class="panel" style="display: none;">
-      <div class="panel-icon"><a href="" onclick="PanelClick()">HOME</a></div>
-      <div class="panel-icon"><a href="#about" onclick="PanelClick()">ABOUT</a></div>
-      <div class="panel-icon"><a href="#homework" onclick="PanelClick()">HOMEWORK</a></div>
-      <div class="panel-icon"><a href="#project" onclick="PanelClick()">PROJECT</a></div>
-      <div class="panel-icon"><a href="#contact" onclick="PanelClick()">CONTACT</a></div>
-    </div>
-  </header>
-  <div class="home element inside-content" style="background-color: #FAFAFA;">
-    <div class="home-left">
-      <div class="home-title" style="font-weight:1000;">賴家煜</div>
-      <div class="home-title">Jia-Yu Lia</div>
-      <div class="home-title2">國立台中科技大學資工二甲</div>
-      <div class="home-title3">National Taichung University of Science and Technolog Computer Science and Information
-        Engineering 2nd class A</div>
-    </div>
-    <div class="home-right"><img class="big-shot" src="static/img/大頭貼.jpg" style="border-radius: 10px;" alt=""></div>
-  </div>
+<body>
+    <header>
+        <p style="flex-grow: 1;">Rex Official</p>
+        <a href="#about">About</a><a href="#project">Project</a>
+        <a class="link" href="https://github.com/ttdragon0722" target="_blank">Rex Github <i
+                class="fa-solid fa-up-right-from-square"></i></a>
+    </header>
+    <div id="title-page">
+        <section class="white-board bottomleft-round left-space">
+            <div class="content">
 
-  <nav id="about"></nav>
-  <div class="about element content inside-content">
-    <div class="title">ABOUT ME</div>
-    <div class="content-text">
-      我的名字叫賴家煜，大家都叫我雷克斯，16歲。住在台中市北區的別墅區一帶，未婚。我在台中科技大學讀書。每天都要吃飯到晚上8點才能回家。我不抽煙，酒僅止於淺嚐。晚上11點睡，每天要睡足8個小時。睡前，我一定喝一杯溫牛奶，然後做20分鐘的柔軟操，上了床，馬上熟睡。一覺到天亮，決不把疲勞和壓力留到第二天。醫生都說我很正常。
+            </div>
+        </section>
+        <div class="full-page">
+            <div class="big-title">
+                <h1 style="font-size: 45px;margin-bottom: 0;padding-left: 20px;"><i class="mark"></i> 雷克斯</h1>
+                <h1 style="font-size: 35px;margin-top: 0;">Jia-Yu Lia</h1>
+                <h5>國立台中科技大學資工二甲</h5>
+                <h5>National Taichung University of Science and Technolog Computer Science and Information Engineering
+                    2nd class A</h5>
+            </div>
+            <div class="big-img">
+                <img src="src/大頭貼.jpg" alt="">
+            </div>
+        </div>
     </div>
-    <div class="school-list-box">
-      <div class="school-list">
-        <div class="school-card">
-          <img src="static/img/光復國小.jpg" class="school-card-img fade-in" alt="">
-          <div class="card-title">光復國小附設幼兒園</div>
-          <div class="card-content">於杜鵑班畢業</div>
-        </div>
-        <div class="school-card">
-          <img src="static/img/文昌國小.jpg" class="school-card-img fade-in" alt="">
-          <div class="card-title">文昌國小</div>
-          <div class="card-content">於六年四班畢業</div>
-          <div class="card-content">並擔任六年四班康樂股長</div>
-        </div>
-        <div class="school-card">
-          <img src="static/img/台中市崇德國中.jfif" class="school-card-img fade-in" alt="">
-          <div class="card-title">崇德國中</div>
-          <div class="card-content">於九年十六班畢業</div>
-          <div class="card-content">並擔任916班長</div>
-          <div class="card-content">當屆學生會副會長</div>
-        </div>
-        <div class="school-card">
-          <img src="static/img/台中科大.jpg" class="school-card-img fade-in" alt="">
-          <div class="card-title">台中科大</div>
-          <div class="card-content">現就讀資工二甲</div>
-          <div class="card-content">並擔任康樂股長</div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <section class="gray-board btm-space right-space right-round fit left-sec" id="about">
+        <div class="content text-center">
+            <div>我的名字叫賴家煜，大家都叫我雷克斯，16歲。</div>
+            <div>
+                住在台中市北區的別墅區一帶，未婚。我在台中科技大學讀書。
+            </div>
+            <div>
+                每天都要吃飯到晚上8點才能回家。我不抽煙，酒僅止於淺嚐。晚上11點睡，每天要睡足8個小時。
+            </div>
+            <div>
+                睡前，我一定喝一杯溫牛奶，然後做20分鐘的柔軟操，上了床，馬上熟睡。
+            </div>
+            <div>
+                一覺到天亮，決不把疲勞和壓力留到第二天。醫生都說我很正常。
+            </div>
 
-  <nav id="homework"></nav>
-  <div class="homework element content inside-content" style="background-color: #FAFAFA;">
-    <div class="title">HOMEWORK</div>
-    <div class="content-text">
-      <ul>
-        <li>
-          <a href="templates/作業2.html">作業2:表格</a>
-        </li>
+            <div class="skill-group">
+                <div class="skill">
+                    <div class="img-holder">
+                        <img src="src/htmlcssjs.png" alt="">
+                    </div>
+                    <h3>Frontend Dev.</h3>
+                    <p>擁有前端技巧，致力於開發各種web app。</p>
+                </div>
+                <div class="skill">
+                    <div class="img-holder">
+                        <img src="src/pythonlogo.png" alt="">
+                    </div>
+                    <h3>Python</h3>
+                    <p>主修python，熟悉python語法，開發過flask、pygame，致力於開發各種python side project。
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="img-holder">
+                        <img src="src/Java_logo.png" alt="">
+                    </div>
+                    <h3>Java</h3>
+                    基礎java技巧。
+                </div>
+            </div>
 
-        <li>
-          <a href="templates/作業3.html">作業3:99乘法表</a>
-        </li>
-
-        <li>
-          <a href="templates/作業4.html">作業4:DIV排版</a>
-        </li>
-        <li>
-          <a href="templates/作業5.html">作業5:BS部落格</a>
-        </li>
-        <li>
-          <a href="templates/作業6.html">作業6-JavaScript九九乘法表</a>
-        </li>
-        <li>
-          <a href="templates/作業7.html">作業7-JS購物車</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <nav id="project"></nav>
-  <div class="project element content inside-content" style="min-height: 100vh;height: fit-content;">
-    <div class="title">PROJECT</div>
-    <div class="content-text">
-      <div class="project-list">
-      </div>
-      <button class="viewmore fade-in"
-        onclick="window.open('https://github.com/ttdragon0722?tab=repositories', '_blank')">view more</button>
-    </div>
-
-    <div class="research-list">
-      <div class="research-card ">
-        <div class="research-card-img"><img src="static/img/pythonlogo.png" alt=""></div>
-        <div class="research-content">
-          <div class="research-card-title">PYTHON</div>
-          <div class="research-card-text">學了一年的python 開發過dc機器人 爬蟲 和一些小程式</div>
         </div>
-      </div>
-      <div class="research-card">
-        <div class="research-card-img"><img src="static/img/htmlcssjs.png" alt=""></div>
-        <div class="research-content">
-          <div class="research-card-title">HTML,CSS,JAVASCRIPT</div>
-          <div class="research-card-text">對於網站的東西略懂略懂</div>
+        <div class="title-in-background bg-left">
+            <div class="vrl" style="transform: translateX(-18%);">關於克斯</div>
+            <div class="vrl">ABOUT ME</div>
         </div>
-      </div>
-      <div class="research-card">
-        <div class="research-card-img"><img src="static/img/pygame.png" alt=""></div>
-        <div class="research-content">
-          <div class="research-card-title">PYGAME</div>
-          <div class="research-card-text">致力於開發各種pygame小遊戲</div>
-        </div>
-      </div>
-      <div class="research-card">
-        <div class="research-card-img"><img src="static/img/雷克斯.png" alt=""></div>
-        <div class="research-content">
-          <div class="research-card-title">YOUTUBE<span style="font-weight: bold;">頻道</span></div>
-          <div class="research-card-text">擁有初階的剪接技巧,曾經經營過1800多訂閱的頻道,因為某些原因頻道被刪除就沒繼續下去了....</div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <nav id="contact"></nav>
-  <div id="parallax">
-    <div class="parallax-title" style="font-family: big john;">contact ME</div>
-  </div>
-  <div class="contact element content inside-content" style="background-color: white;">
-    <div class="contact-block">
-      <div class="contact-title">FACEBOOK</div>
-      <div class="contact-content">
-        <div><a href="https://www.facebook.com/profile.php?id=100013759479543" target="_blank">雷克斯</a></div>
-        <div><a href="https://www.facebook.com/TTDragon0722" target="_blank">雷克斯的幹話人生</a></div>
-      </div>
-    </div>
-    <div class="contact-block">
-      <div class="contact-title">INSTAGRAM</div>
-      <div class="contact-content">
-        <div><a href="https://www.instagram.com/ttdragon_0722/" target="_blank">雷克斯</a></div>
-      </div>
-    </div>
-    <div class="contact-block">
-      <div class="contact-title">YOUTUBE</div>
-      <div class="contact-content">
-        <div><a href="https://www.youtube.com/channel/UCtBPkw7bcZQ_0WuteT4EL4Q" target="_blank">雷克斯與TT暴龍</a></div>
-      </div>
-    </div>
-    <div class="contact-block">
-      <div class="contact-title">OTHER</div>
-      <div class="contact-content">
-        <div><a href="https://goo.gl/maps/Fob6W78He9Jpn7iD8" target="_blank">雷克斯漢堡</a></div>
-        <div><a href="TEL:0422325476">Tel:04-22325476</a></div>
-        <div>Taichung,Taiwan</div>
-      </div>
-    </div>
-  </div>
+    <section class="gray-board left-space top-space bottom-space left-round btm-space right-sec fit" id="project">
+        <div class="content">   
+            <div class="project-group">
+                <!-- <div class="project-row">
+                    <div class="project">
+                        <a href=""><h2>title</h2></a>
+                        <p>hahahah</p>
+                        <button class="button-28" role="button">LINK</button>
+                    </div>
+                    <div class="project">
+                        <a href="">
+                            <h2>title</h2>
+                        </a>
+                        <p class="type">type</p>
+                        <p>hahahah</p>
+                        <button class="button-28" role="button">LINK</button>
+                        <p class="time">time</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="title-in-background bg-right">
+            <div class="vrl" style="transform: translateX(18%);">專案開發</div>
+            <div class="vrl">Project</div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p style="flex-grow: 1;">Copyright © 2023 雷克斯 TTDragon . All rights reserved.</p>
+        <div class="btn-group">
+            <a href=https://www.youtube.com/channel/UCtBPkw7bcZQ_0WuteT4EL4Q" class="btn"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/ttdragon_0722/" class="btn"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100013759479543" class="btn"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
 
-  <nav id="footer"></nav>
-  <div class="footer content inside-content element "
-    style="background-color: #FAFAFA;display: flex;align-items: center;justify-content: flex-end;">
-    <div>
-      Copyright © 2022 雷克斯 TTDragon . All rights reserved.
-    </div>
-  </div>
 </body>
 
 </html>
